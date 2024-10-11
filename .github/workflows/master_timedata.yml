@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: '20.x'
 
+      - name: Fix permissions
+        run: sudo chown -R $USER:$USER ~/.npm  # Ajustar permisos
+
       - name: npm install, build, and test
         run: |
           npm install
@@ -68,4 +71,3 @@ jobs:
           app-name: 'timedata'
           slot-name: 'Production'
           package: .
-          
