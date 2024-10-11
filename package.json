@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.0"  // Agregada esta línea
   }
 }
