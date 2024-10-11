@@ -1,0 +1,106 @@
+/* IniciarSesion.css */
+.iniciarsecion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the container */
+    gap: 20px; /* Space between form and image */
+    width: 90%; /* To ensure the container doesn't stretch too wide */
+}
+
+.sing-in {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 500px; /* Increase the width of the white box */
+    width: 100%;
+}
+
+.iniciar-secin {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.escribirlo {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.boton {
+    background-color: #6a1b9a; /* Color similar al botón en la imagen */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px; /* Ensure button is smaller */
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton:hover {
+    background-color: #4a148c;
+}
+
+.extra-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.remember-me {
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.help-link {
+    font-size: 14px;
+    color: #6a1b9a;
+    text-decoration: none;
+}
+
+.cuadro-inner {
+    margin-top: 40px; /* More space between register section and above elements */
+    text-align: center;
+}
+
+.register-link {
+    color: #6a1b9a;
+    text-decoration: none;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Aligning image to the right */
+    flex-grow: 1; /* Ensuring it takes remaining space */
+}
+
+.imagenmuecos-icon {
+    max-width: 100%; /* Ensure the image fits its container */
+    height: auto;
+    margin-left: 200px; /* Mueve la imagen a la izquierda */
+    margin-right: auto; /* Asegura que la imagen esté alineada a la izquierda */
+
+}

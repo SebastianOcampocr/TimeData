@@ -1,0 +1,193 @@
+.b16170a5347c77eee4653-welcome1 {
+    width: 128px;
+    position: relative;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.b16170a5347c77eee4653-welcome {
+    position: absolute;
+    height: 0.97%;
+    width: 9.53%;
+    top: 1.51%;
+    right: 88.28%;
+    bottom: 97.53%;
+    left: 2.19%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.inicio {
+    position: absolute;
+    top: calc(50% - 8.65px);
+    left: calc(50% - 154px);
+    line-height: 16px;
+}
+.subir-reto {
+    position: absolute;
+    top: calc(50% - 8.65px);
+    left: calc(50% - 77px);
+    line-height: 16px;
+}
+.crear-reto {
+    position: relative;
+}
+.a {
+    position: absolute;
+    top: calc(50% - 23.65px);
+    right: -0.02px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.25) inset;
+    border-radius: 64px;
+    background-color: #8c52b1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 23px 22.8px 25px 23px;
+    font-size: 16px;
+}
+.div {
+    position: absolute;
+    height: 1.44%;
+    width: 23.28%;
+    top: 7.48%;
+    right: 18.67%;
+    bottom: 91.07%;
+    left: 58.05%;
+    text-align: center;
+}
+.logofoto-icon {
+    position: absolute;
+    top: 32px;
+    left: 53px;
+    width: 158px;
+    height: 65px;
+    object-fit: cover;
+}
+.user-icon {
+    position: absolute;
+    top: 64px;
+    left: 1099px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.keylan-c {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+.chevron-down-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.usuario {
+    position: absolute;
+    top: 61px;
+    left: 1130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 18px;
+    font-family: arial, sans-serif;;
+}
+.donaciones {
+    position: absolute;
+    top: 23px;
+    left: calc(50% - 107px);
+    line-height: 20.8px;
+}
+.div1 {
+    position: absolute;
+    height: 7.48%;
+    width: 27.97%;
+    top: 4.45%;
+    right: 48.98%;
+    bottom: 88.07%;
+    left: 23.05%;
+}
+.sobre-nosotros {
+    position: absolute;
+    top: 64px;
+    left: calc(50% - 171.94px);
+    line-height: 20.8px;
+}
+.comentarios {
+    position: absolute;
+    top: 65px;
+    left: calc(50% - 46px);
+    line-height: 20.8px;
+}
+.parte-escribir-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 902px;
+    height: 82.2px;
+}
+.envia-un-mensaje {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    display: inline-block;
+    width: 296.9px;
+}
+.envia-un-mensaje-al-chat-bot-wrapper {
+    position: absolute;
+    top: 25.82px;
+    left: 41px;
+    width: 296.9px;
+    height: 24px;
+}
+.parte-escribir {
+    position: absolute;
+    top: 773px;
+    left: 189px;
+    width: 902px;
+    height: 82.2px;
+    font-size: 18.78px;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans';
+}
+.calculadora-html-css {
+    width: 266px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.cuadrotexto {
+    position: absolute;
+    top: 663px;
+    left: 619px;
+    border-radius: 25px 0px 25px 25px;
+    background-color: #8c52b1;
+    width: 462px;
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: Nunito;
+}
+.chatbot {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 922px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+    font-family: Inter;
+}
+

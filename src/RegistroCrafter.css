@@ -1,0 +1,187 @@
+.registro-del-crafter {
+    position: relative;
+    font-size: 32px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+.correo-celular {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.correo-celular-wrapper {
+    align-self: stretch;
+    position: relative;
+    height: 27px;
+}
+.escribirlo {
+    align-self: stretch;
+    position: relative;
+    border-radius: 12px;
+    border: 1px solid rgba(102, 102, 102, 0.35);
+    box-sizing: border-box;
+    height: 56px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.email {
+    width: 459px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.ojo {
+    position: absolute;
+    top: 3px;
+    right: 49px;
+    width: 24px;
+    height: 24px;
+}
+.ocultar1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.ocultar {
+    position: absolute;
+    top: 0px;
+    right: 8.86px;
+    width: 73px;
+    height: 27px;
+    text-align: right;
+    font-size: 18px;
+    color: rgba(102, 102, 102, 0.8);
+}
+.contrasea {
+    width: 459px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    color: #666;
+}
+.sign-up {
+    position: relative;
+}
+.sign-up-wrapper {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% - 50px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.boton {
+    width: 459px;
+    position: relative;
+    border-radius: 32px;
+    background-color: #517ac7;
+    height: 56px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.check-box-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.check-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 8px 8px 0px;
+    gap: 8px;
+}
+.necesitas-ayuda {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px;
+    text-align: center;
+}
+.recordarmeayuda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 205px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+.iniciar-secion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.registro-del-crafter-parent {
+    position: absolute;
+    top: 12%; /* Cambia el valor de 'top' para ajustar la altura */
+    left: 50%;
+    transform: translateX(-50%); /* Centra horizontalmente */
+    height: auto; /* Permite que el contenedor se ajuste a su contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todos los elementos */
+    justify-content: flex-start;
+    gap: 28px;
+}
+.iniciar-sesion1 {
+    font-weight: 500;
+}
+.span {
+    font-family: arial, sans-serif;
+    white-space: pre-wrap;
+}
+.iniciar-sesion {
+    text-decoration: underline;
+    color: #111;
+}
+.ya-tienes-una-container {
+    position: absolute;
+    top: 90.5%;
+    left: 30.08%;
+    cursor: pointer;
+    color: #666;
+}
+.mueco2-icon {
+    position: absolute;
+    top: 110px;
+    left: 379px;
+    width: 573px;
+    height: 683px;
+    object-fit: cover;
+}
+.logofoto-icon {
+    position: absolute;
+    top: 45px;
+    left: 52px;
+    width: 158px;
+    height: 65px;
+    object-fit: cover;
+}
+.registrocrafter {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-family: arial, sans-serif;
+}

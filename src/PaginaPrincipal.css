@@ -1,0 +1,183 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .paginaprincipal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .navbar a:hover {
+    color: #007BFF; /* Color de hover */
+  }
+  
+  .logofoto-icon {
+    width: 180px; /* Ajuste del tamaño del logo */
+  }
+  
+  .fotoinicio-icon {
+    width: 100%;
+    max-width: 800px; /* Ajuste de la imagen principal */
+    margin: 20px 0;
+  }
+  
+  /* Sección "Nuestros lenguajes de programación" */
+  .lenguajes-de-programacion {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px 0;
+  }
+  
+  .lenguajes-de-programacion img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .lenguajes-de-programacion img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Sección de Retos */
+  .retos-creados {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 40px 0;
+  }
+  
+  .reto-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .reto-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex-basis: calc(33.333% - 30px);
+    max-width: calc(33.333% - 30px);
+    text-align: left;
+  }
+  
+  .reto-box b {
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .reto-box p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .reto-box .stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .reto-box .stars img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }
+  
+  /* Sección "TimeData" */
+  .timedata-icon {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .timedata-text1, .timedata-text2, .timedata-text3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .timedata-text2 {
+    margin-top: -10px;
+  }
+  
+  /* Sección Comentarios */
+  .comentarios1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 50px 0 30px;
+  }
+  
+  .comentario-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .comentario-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .comentario-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .comentario-box div {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .comentario-box b {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+
+  

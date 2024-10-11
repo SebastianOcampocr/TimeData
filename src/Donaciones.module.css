@@ -1,0 +1,54 @@
+.donaciones {
+  display: flex; /* Usamos flexbox para alinear la imagen y el texto */
+  align-items: center; /* Alinea los elementos al centro verticalmente */
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  margin: 80px auto; /* Añadir margen superior e inferior para separar de otros elementos */
+  padding: 40px 20px; /* Añade margen interno */
+  text-align: center; /* Centra el texto en el contenedor */
+}
+
+.donaciones1 {
+  flex-basis: 40%; /* El contenedor de la imagen ocupa el 40% del ancho total */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.fotoniosIcon {
+  width: 100%; /* La imagen ocupa todo el contenedor de .donaciones1 */
+  height: auto; /* Mantiene la proporción de la imagen */
+  max-width: 100%; /* Asegúrate de que no exceda el ancho del contenedor */
+  object-fit: cover; /* Cambia a cover para cubrir el contenedor */
+}
+
+.esteProyectoDestinaContainer {
+  flex-basis: 55%; /* El contenedor del texto ocupa el 55% del ancho total */
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-top: 20px; /* Espacio adicional sobre el texto */
+}
+
+.donaciones2 {
+  font-weight: bold;
+  font-size: 32px; /* Tamaño más grande para "DONACIONES" */
+  position: relative;
+  padding-bottom: 15px; /* Espacio entre "DONACIONES" y la línea amarilla */
+}
+
+.donaciones2::after {
+  content: "";
+  display: block;
+  width: 215px; /* Longitud de la línea amarilla */
+  height: 5px; /* Grosor de la línea */
+  background-color: #FFD700; /* Color amarillo */
+  position: absolute;
+  left: 50%; /* Centra la línea horizontalmente */
+  transform: translateX(-50%); /* Ajusta para que quede centrada */
+  bottom: 0;
+}
+
+.esteProyectoDestina {
+  margin-bottom: 20px;
+  font-size: 18px; /* Tamaño del texto */
+  color: #555;
+  margin-top: 15px; /* Espacio adicional sobre los párrafos */
+}
