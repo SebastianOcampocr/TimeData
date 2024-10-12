@@ -13,7 +13,6 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-
 // Middleware
 app.use(cors()); // Habilitar CORS
 app.use(bodyParser.json());
@@ -32,11 +31,32 @@ const dbConfig = {
 };
 
 // Conectar a SQL Azure
-sql.connect(dbConfig, (err) => {
+sql.connect(dbConfig, async (err) => {
     if (err) {
         console.error('Error al conectar a la base de datos:', err.message);
     } else {
         console.log('Conectado a la base de datos SQL Azure.');
+        
+        // Crear la tabla 'users' si no existe
+        const createTableQuery = `
+            IF NOT EXISTS (SELECT * FROM sysobjects WHERE name='users' AND xtype='U')
+            CREATE TABLE users (
+                id INT IDENTITY(1,1) PRIMARY KEY,
+                username NVARCHAR(50) NOT NULL,
+                email NVARCHAR(50) NOT NULL UNIQUE,
+                password NVARCHAR(255) NOT NULL,
+                accountType NVARCHAR(50) NOT NULL,
+                createdAt DATETIME DEFAULT GETDATE()
+            );
+        `;
+
+        try {
+            const pool = await sql.connect(dbConfig);
+            await pool.request().query(createTableQuery);
+            console.log('Tabla "users" creada o ya existe.');
+        } catch (createTableErr) {
+            console.error('Error al crear la tabla "users":', createTableErr.message);
+        }
     }
 });
 
@@ -120,4 +140,5 @@ app.get('*', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Servidor corriendo en http://0.0.0.0:${PORT}`);
 });
+
 
