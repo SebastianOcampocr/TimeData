@@ -17,7 +17,7 @@ const Registrocrafter = () => {
             setError('');
             // Intentar registrarse
             try {
-                const response = await fetch('http://localhost:5000/register', {
+                const response = await fetch('https://timedata.azurewebsites.net/register', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -38,7 +38,7 @@ const Registrocrafter = () => {
                 console.log(data); // Aquí puedes manejar la respuesta
 
                 // Iniciar sesión automáticamente
-                const loginResponse = await fetch('http://localhost:5000/login', {
+                const loginResponse = await fetch('https://timedata.azurewebsites.net/login', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
