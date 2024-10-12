@@ -18,7 +18,7 @@ const Registrocoder = () => {
             setError('');
             // Intentar registrarse
             try {
-                const response = await fetch('http://localhost:5000/register', {
+                const response = await fetch('https://timedata.azurewebsites.net/register', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
