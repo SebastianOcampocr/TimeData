@@ -7,7 +7,7 @@ const sql = require('mssql'); // Paquete para SQL Server
 
 // Crear una instancia de Express
 const app = express();
-const port = process.env.PORT || 5000; // Usa el puerto de la variable de entorno o 5000 como predeterminado
+const port = process.env.PORT || 8080; // Usa el puerto de la variable de entorno o 5000 como predeterminado
 
 // Middleware
 app.use(cors()); // Habilitar CORS
