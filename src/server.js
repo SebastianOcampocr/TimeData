@@ -8,7 +8,11 @@ const path = require('path'); // Para manejar rutas de archivos
 
 // Crear una instancia de Express
 const app = express();
-const port = process.env.PORT || 8080; // Usa el puerto de la variable de entorno o 8080 como predeterminado
+const PORT = process.env.PORT || 8080; // O el puerto que prefieras
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
 
 // Middleware
 app.use(cors()); // Habilitar CORS
