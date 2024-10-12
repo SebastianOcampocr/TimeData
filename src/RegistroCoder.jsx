@@ -126,7 +126,8 @@ const Registrocoder = () => {
                     Registrarse
                 </button>
                 <div className="ayudaaa">
-                    <a href="#" className="help-link">¿Necesitas ayuda?</a>
+                    <a href="/help" className="help-link">¿Necesitas ayuda?</a>
+
                 </div>
             </div>
             <div className="ya-tienes-una-container">
