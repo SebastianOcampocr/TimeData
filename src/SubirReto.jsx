@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './SubirReto.css';
 
 const Subirreto = () => {
-  const [file, setFile] = useState(null);
+  const [setFile] = useState(null);
 
   const handleFileChange = (event) => {
     const selectedFile = event.target.files[0];
