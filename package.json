@@ -1,5 +1,5 @@
 {
-  "name": "timedata-app",
+  "name": "TimeData",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
+    "cross-spawn": "^7.0.3",
     "express": "^4.21.1",
     "mssql": "^11.0.1",
     "react": "^18.3.1",
@@ -16,15 +17,13 @@
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
     "sqlite3": "^5.1.7",
-    "web-vitals": "^2.1.4",
-    "cross-spawn": "^7.0.3"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env PORT=8080 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start": "PORT=8080 react-scripts start"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -45,7 +44,8 @@
     ]
   },
   "devDependencies": {
-    "file-loader": "^6.2.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.16.0"
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
+    "cross-env": "^7.0.3",
+    "file-loader": "^6.2.0"
   }
 }
