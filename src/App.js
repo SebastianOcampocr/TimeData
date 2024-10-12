@@ -201,5 +201,3 @@ function HomePage({ username }) {
 
 // Asegúrate de que solo haya un export default
 export default App;
-p;
-
