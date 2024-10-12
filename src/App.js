@@ -80,7 +80,6 @@ function AppContent() {
             </ul>
             <button className="create-challenge-btn">+ Crear reto</button>
             {username && <UserMenu onLogout={logout} username={username} />}
-            
           </div>
         </nav>
       </header>
@@ -197,5 +196,8 @@ function HomePage({ username }) {
     </main>
   );
 }
+
+export default App;
+
 
 export default App;
