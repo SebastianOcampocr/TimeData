@@ -26,6 +26,7 @@ function App() {
   );
 }
 
+// No se debe exportar AppContent como default
 function AppContent() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -99,6 +100,7 @@ function AppContent() {
   );
 }
 
+// Asegúrate de que HomePage no sea exportada como default
 function HomePage({ username }) {
   return (
     <main className="main-content">
@@ -197,8 +199,7 @@ function HomePage({ username }) {
   );
 }
 
+// Asegúrate de que solo haya un export default
 export default App;
+p;
 
-
-
-export default App;
