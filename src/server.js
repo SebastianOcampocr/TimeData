@@ -7,7 +7,7 @@ const sql = require('mssql'); // Paquete para SQL Server
 
 // Crear una instancia de Express
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000; // Usa el puerto de la variable de entorno o 5000 como predeterminado
 
 // Middleware
 app.use(cors()); // Habilitar CORS
@@ -74,6 +74,7 @@ app.post('/register', async (req, res) => {
         // Iniciar sesión automáticamente
         res.status(201).json({ message: 'Usuario registrado e iniciado sesión exitosamente.', user: { username, email, accountType } });
     } catch (err) {
+        console.error('Error en la ruta /register:', err.message); // Añadir log aquí
         res.status(500).json({ error: err.message });
     }
 });
@@ -104,6 +105,7 @@ app.post('/login', async (req, res) => {
         // Si todo es correcto, responde con un mensaje de éxito y el nombre de usuario
         res.status(200).json({ message: 'Inicio de sesión exitoso', user: { username: user.username, email: user.email, accountType: user.accountType } });
     } catch (err) {
+        console.error('Error en la ruta /login:', err.message); // Añadir log aquí
         res.status(500).json({ error: err.message });
     }
 });
