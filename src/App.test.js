@@ -4,6 +4,9 @@ import App from './App';
 test('renders Iniciar sesión link', () => {
   render(<App />);
   
-  const linkElement = screen.getByText(/Iniciar sesión/i);
-  expect(linkElement).toBeInTheDocument();
+  // Busca todos los elementos que contienen el texto "Iniciar sesión"
+  const linkElements = screen.getAllByText(/Iniciar sesión/i);
+  
+  // Asegúrate de que al menos uno esté presente
+  expect(linkElements.length).toBeGreaterThan(0);
 });
