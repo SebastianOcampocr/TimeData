@@ -80,7 +80,8 @@ const IniciarSecion = () => {
                             <input type="checkbox" />
                             Recordarme
                         </label>
-                        <a href="#" className="help-link">¿Necesitas ayuda?</a>
+                        <a href="/help" className="help-link">¿Necesitas ayuda?</a>
+
                     </div>
                     <div className="cuadro-inner">
                         <span>¿No tienes una cuenta?</span>
