@@ -24,13 +24,16 @@ jobs:
       - name: Fix permissions
         run: chmod +x node_modules/.bin/*  # Ajustar permisos para los scripts
 
+      - name: Create build directory
+        run: mkdir -p build  # Crea el directorio de build
+
       - name: npm install, build, and test
         run: |
           npm run build --if-present  # Construir la aplicación
           npm run test --if-present    # Ejecutar las pruebas
 
       - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+        run: zip -r release.zip build/*  # Zip solo el contenido de build
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
