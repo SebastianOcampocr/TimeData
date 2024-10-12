@@ -18,7 +18,7 @@ const IniciarSecion = () => {
         }
     
         try {
-            const response = await fetch(https://timedata.azurewebsites.net/login, {
+            const response = await fetch('https://timedata.azurewebsites.net/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
